@@ -17,9 +17,11 @@ class Bank:
             for index in range(len(number)):
                 if (index + 1) % 2 != 0:
                     luhn_num.append(int(number[index]) * 2)
+                else:
+                    luhn_num.append(int(number[index]))
             for index in range(len(luhn_num)):
                 if int(luhn_num[index]) > 9:
-                    luhn_num[index] += luhn_num[index] - 9
+                    luhn_num[index] = luhn_num[index] - 9
             sum_luhn = 0
             for index in range(len(luhn_num)):
                 sum_luhn += int(luhn_num[index])
