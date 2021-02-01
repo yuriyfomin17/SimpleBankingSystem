@@ -6,3 +6,6 @@ number = input()
 
 for num in number:
     print(num_value[num])
+
+
+
