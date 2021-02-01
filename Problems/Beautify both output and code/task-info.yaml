@@ -4,5 +4,15 @@ files:
   visible: true
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/6077#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: |-
+    <html>[+] Test #1. OK
+    [+] Test #2. OK
+    [+] Test #3. OK
+    [+] Test #4. OK
+    [+] Test #5. OK
+
+    5 of 5 test(s) passed.</html>
+  time: Mon, 01 Feb 2021 08:23:13 UTC
 record: -1
