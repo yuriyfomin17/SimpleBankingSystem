@@ -419,41 +419,12 @@ files:
     if __name__ == '__main__':
         BankingSystem('banking.banking').run_tests()
   learner_created: false
+- name: banking/card.s3db
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/109/stages/594/implement#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Exception in test #5
-
-    Traceback (most recent call last):
-      File "banking.py", line 130, in <module>
-        while menu[option] != "0. Exit":
-    IndexError: list index out of range
-
-    Please find below the output of your program during this failed test.
-    Note that the '>' character indicates the beginning of the input line.
-
-    ---
-
-    1. Create an account
-    2. Log into account
-    0. Exit
-    > 1
-    Your card has been created
-    Your card number:
-    4000008467778853
-    Your card PIN:
-    7947
-    1. Create an account
-    2. Log into account
-    0. Exit
-    > 2
-    Enter your card number:
-    > 4000008467778853
-    Probably you made a mistake in the card number.
-    1. Create an account
-    2. Log into account
-    0. Exit
-    > 7947
-  time: Tue, 02 Feb 2021 14:03:38 UTC
+  message: Congratulations!
+  time: Tue, 02 Feb 2021 18:19:16 UTC
 record: -1
